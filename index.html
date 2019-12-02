@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>How to make a sandwich</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -15,20 +15,22 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">https://www.thesimplesandwich.com/wp-content/themes/thesimplesandwich/images/home-slides/slide-turkey.jpg
-    <a href="#home" class="w3-bar-item w3-button"></a>
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Prubpreet Singh</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
-
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"></a>
+      <a href="#menu" class="w3-bar-item w3-button"></a>
+      <a href="#contact" class="w3-bar-item w3-button"></a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="https://www.thesimplesandwich.com/wp-content/themes/thesimplesandwich/images/home-slides/slide-turkey.jpg" alt="Hamburger Catering" width="1600" height="600">
+  <img class="w3-image" src="https://images.unsplash.com/photo-1553909489-cd47e0907980?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Hamburger Catering" width="1600" height="800">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-  <div class="w3-red">
-    <h1 class= "w3-xxlarge"> How to make a sandwich</h1>
+    <h1 class="w3-xxlarge">How to make a sandwich</h1>
   </div>
 </header>
 
@@ -38,13 +40,13 @@ h1, h2, h3, h4, h5, h6 {
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/BLT_sandwich_on_toast.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
       <h1 class="w3-center">Background info</h1><br>
       <h5 class="w3-center">Simple and delicious</h5>
-      <p class="w3-large">  Hi guys, today I will be showing you how to make a simple sandwich which does not require a lot of time to make. You will need a few ingredients but you probably already have these at home.</p>
+      <p class="w3-large">Hi guys, today I will be showing you how to make a simple sandwich which does not require a lot of time to make. You will need a few ingredients but you probably already have these at home. Just follow these quick steps and you will be good to go! Also just know that your sandwich will not be the same as pictured. Everyone has their own preference.</p>
       <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
@@ -54,27 +56,55 @@ h1, h2, h3, h4, h5, h6 {
   <!-- Menu Section -->
   <div class="w3-row w3-padding-64" id="menu">
     <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Our Menu</h1><br>
-      <h4>Bread Basket</h4>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+      <h1 class="w3-center">Ingredients/materials</h1><br>
+      <h4>Your choice of bread </h4>
+      <p class="w3-text-grey"> White bread, brown bread, bagel, etc</p><br>
     
-      <h4>Honey Almond Granola with Fruits</h4>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+      <h4> Your choice of condiments</h4>
+      <p class="w3-text-grey">Mayo, ketchup, mustard, etc</p><br>
+      
+      <h4>Your choice of veggies</h4>
+      <p class="w3-text-grey"> Tomatoes, onions, lettuce, spinach, etc</p><br>
     
-      <h4>Belgian Waffle</h4>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+      <h4>Your choice of meat</h4>
+      <p class="w3-text-grey">Ham, turkey, etc</p><br>
+     
+    <h4>Toaster</h4>
+      <p class="w3-text-grey">To toast the bread</p><br>
     
-      <h4>Scrambled eggs</h4>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h4>Blueberry Pancakes</h4>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
+      <h4>Spoon</h4>
+      <p class="w3-text-grey">To spread the condiment(s) on the bread</p>   
+      
+      <h4>Plate</h4>
+      <p class="w3-text-grey">Place your sandwich on the plate</p><br>
     </div>
     
     <div class="w3-col l6 w3-padding-large">
-      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      <img src="https://www.justonecookbook.com/wp-content/uploads/2015/05/Baked-Chicken-Katsu-Sandwich-Ingredients.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
     </div>
   </div>
 
   <hr>
 
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Steps</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+
+
+</body>
+</html>
